@@ -1,0 +1,121 @@
+/* Style pour le conteneur principal */
+.page-container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Utilise toute la hauteur de la vue */
+  }
+  
+  /* Style pour le conteneur de chaque offre */
+  .offer-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 100px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour la section des détails de l'offre */
+  .offer-details {
+    margin-bottom: 12px;
+  }
+  
+  /* Style pour le bouton "Apply" */
+  .apply-button {
+    text-align: center;
+  }
+  
+  /* Style pour le bouton */
+  .apply-button button {
+    background-color: #0c0040;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* Style pour la feuille de candidature */
+  .sheet {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Style pour le titre de la feuille */
+  .sheet-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour la description de la feuille */
+  .sheet-description {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour le conteneur principal */
+.offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    padding: 20px; /* Ajouter un peu d'espacement autour de la liste */
+  }
+  
+  /* Style pour chaque offre */
+  .offer-item {
+    width: calc(50% - 32px); /* Largeur de chaque offre (50% - marge) */
+    margin: 16px; /* Espacement entre les offres */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur */
+  }
+  
+  /* Style pour les détails de l'offre */
+  .offer-details {
+    margin-bottom: 12px;
+  }
+  
+  /* Style pour le bouton "Apply" */
+  .apply-button {
+    text-align: center;
+  }
+  
+  /* Style pour le bouton */
+  .apply-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* Style pour la feuille de candidature */
+  .sheet {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* Style pour le titre de la feuille */
+  .sheet-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour la description de la feuille */
+  .sheet-description {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
